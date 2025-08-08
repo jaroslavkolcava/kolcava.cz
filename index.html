@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jaroslav KOLČAVA | ZÁBŘEH | Prodej a servis výpočetní techniky</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      background: white;
+    }
+
+    /* Výchozí styl pro mobily – vertikální centrování */
+    body {
+      display: flex;
+      align-items: center;     /* vertikální střed */
+      justify-content: center; /* horizontální střed */
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    /* Na větších obrazovkách pozadí přes celou obrazovku */
+    @media (min-width: 769px) {
+      body {
+        display: block;
+        background: white url('files/kolcava.jpg') no-repeat center center;
+        background-size: cover;
+      }
+      img {
+        display: none;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Obrázek pro mobily -->
+  <img src="files/kolcava.jpg" alt="Jaroslav KOLČAVA">
+
+</body>
+</html>
